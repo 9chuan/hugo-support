@@ -1,14 +1,15 @@
 ---
-title: 赛福故障代码表
-linktitle: 赛福故障代码表
+summary: 当前赛福所有故障代码表
+authorsauthorsauthors:
+  - admin
 toc: true
-type: book
-date: "2021-11-02T00:00:00+01:00"
-authorsauthorsauthors: ["admin"]
-summary: "当前赛福所有故障代码表"
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+title: 赛福故障代码表
+date: 2021-11-04T16:21:47.610Z
 weight: 20
+type: book
+image:
+  ? filename
+linktitle: 赛福故障代码表
 ---
 
 # 赛福故障代码表
