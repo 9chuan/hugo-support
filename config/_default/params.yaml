@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: minimal
+theme: my
 day_night: true
-font: ''
+font: Minimal 
 font_size: L
 
 # SEO
@@ -37,8 +37,8 @@ time_format: '3:04 PM'
 # Site features
 
 highlight: false
-math: false
-diagram: false
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
@@ -84,8 +84,64 @@ marketing:
   google_tag_manager: ''
   google_site_verification: ''
 cms:
-  branch: main
-  local_backend: false
+ # branch: main
+ # publish_mode: editorial_workflow
+  local_backend: true
 icon:
   pack:
     ai: false
+    
+# Contact (edit or remove options as required)
+
+email:  hyl@china-sfb.com
+phone:  18655438614 
+
+address:
+  street: 浙江省 宁波市 东钱湖旅游度假区上阳工业区中阳路8号
+  #city: 浙江省
+  #region: 宁波市
+  postcode: '315000'
+  country: United States
+  country_code: US
+coordinates:
+  latitude: '37.4275'
+  longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+office_hours:
+  - 'AM 08:00 to 12:00'
+  - 'PM 13:00 to 18:00'
+#appointment_url: 'https://calendly.com'
+contact_links:
+  - icon: weixin
+    icon_pack: fab
+    name:  18655438614
+    link: 'contact'
+  #- icon: skype
+   # icon_pack: fab
+   # name: Skype Me
+   # link: 'skype:echo123?call'
+ # - icon: keybase
+   # icon_pack: fab
+   # name: Chat on Keybase
+   # link: 'https://keybase.io/'
+ # - icon: comments
+   # icon_pack: fas
+   # name: Discuss on Forum
+  #  link: 'https://discourse.gohugo.io'
+#map:
+ # provider: 'mapnik'
+ # api_key: ''
+ # zoom: 15
+#coordinates:
+  #latitude: '37.4275'
+ # longitude: '-122.1697'#
+
+# footer
+#copyright_license:
+  #enable: true
+ # allow_derivatives: false
+ # share_alike: false
+ # allow_commercial: false
+  #notice: >-
+     #PowerBy ATZ Team . Copyright © 2014 - 2021 SAFE BRAKES
+

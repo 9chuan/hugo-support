@@ -2,11 +2,47 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
-
-main:
-  - name: Home
-    url: /
-    weight: 10
-  - name: Documentation
-    url: docs/
+#- name: 主页
+ #   url: /
+   # weight: 10
+main: 
+  - name: 技术支持文档
+    url: support
     weight: 20
+    identifier: support
+  - name: ABS系列技术支持文档
+    url: support/abs_docs/
+    weight: 30
+    parent: support
+  - name: TCS系列技术支持文档
+    url: support/tcs_docs/
+    weight: 40
+    parent: support
+  - name: MSC系列技术支持文档
+    url: support/msc_docs/
+    weight: 50
+    parent: support
+  - name: 故障处理
+    url: support/error_docs/
+    weight: 51
+    parent: support
+  - name: 技术流程
+    url: error
+    weight: 60
+  - name: 最新动态
+    url: post
+    weight: 11
+  - name: 专利技术及执行标准
+    url: publication
+    weight: 62
+  - name: 联系赛福
+    url: contact
+    weight: 71
+  - name: 技术工单
+    url: contact
+    weight: 70
+  - name: 关于我们
+    url: team
+    weight: 200
+ 
+

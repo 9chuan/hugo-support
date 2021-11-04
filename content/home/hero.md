@@ -2,30 +2,43 @@
 widget: hero
 headless: true
 weight: 10
-title: Project Docs Template
-hero_media: book.svg
+title: </br> LET'S GET</br> POWER!
 design:
   background:
     gradient_start: '#4bb4e3'
     gradient_end: '#2b94c3'
     text_color_light: true
+    image: hello.jpg  # Name of image in `static/media/`.
+    image_darken: 0.4
+    image_size: cover
+    image_position: right
+    image_parallax: true
+    video: intro.mp4
+
+
+
 cta:
-  url: docs/
-  label: Get Started
-  icon_pack: fas
-  icon: download
+  url: contact
+  label: 在线咨询
+  icon_pack: fab
+  icon: telegram-plane
 cta_alt:
-  url: docs/
+  url: support/
   label: View Documentation
-cta_note:
-  label: >-
-    <span class="js-github-release" data-repo="wowchemy/wowchemy-hugo-modules">
-      Show your product version here:<!-- Automatically filled based on data-repo value -->
-    </span>
+advanced:
+  css_style:
+
 ---
 
-Published with the [Wowchemy Website Builder](https://wowchemy.com/) for Hugo.
+</br>
 
-Write something interesting about your project here.
+</br>
 
-<a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-modules" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star Wowchemy Website Builder for Hugo</a><br><a class="github-button" href="https://github.com/wowchemy/starter-hugo-project-documentation" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Project Docs template">Star the Project Docs template</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+欢迎访问赛福制动在线技术支持</br>
+
+</br>
+
+</br>
+
+
+

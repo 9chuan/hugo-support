@@ -2,7 +2,7 @@
 widget: featurette
 headless: true
 weight: 20
-title: Features
+title: 功能
 subtitle: Document _anything_ ✨
 feature:
   - icon: book-open
@@ -18,3 +18,4 @@ feature:
     name: Personal Notebook
     description: For yourself
 ---
+
